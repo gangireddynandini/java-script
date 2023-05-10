@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>
+        labels
+    </title>
+
+<body>
+    <label for="fn">First Number</label>
+    <input type="number" id="fn"><br>
+    <label for="sn">second Number</label>
+    <input type="number" id="sn"><br>
+    <button onclick="hloo()">sum</button>
+    <input id="sum">
+    <script>
+        function sum() {
+            a = Number(document.getElementById('fn').value);
+            b = Number(document.getElementById('sn').value);
+            z = a + b;
+            document.getElementById("sum").value = z;
+
+        }
+    </script>
+</body>
+</head>
+
+</html>
